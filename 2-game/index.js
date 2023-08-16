@@ -128,9 +128,12 @@ async function init(runtime) {
       openSlot: false,
       move: true,
       rotate: false,
-      vertices: [
-        [2, -3],
+      vertices: [  
+        [1, -3],
+        [1, -2], 
+        [2, -2],
         [2, -4],
+      
         [-20, -4],
         [-20, -3],
       ]
